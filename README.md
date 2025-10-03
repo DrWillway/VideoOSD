@@ -2,18 +2,10 @@
 
 Цей проєкт відображає текст на відео з можливістю налаштування через веб-інтерфейс.
 
-Встановлення залежностей
-
-На Linux потрібно встановити всі залежності для C++ та Python:
-
-Оновіть пакети:
-
-sudo apt update
-
-
-Встановіть C++ залежності:
+Встановіть залежності:
 
 ```
+sudo apt update
 sudo apt install -y build-essential cmake libopencv-dev nlohmann-json3-dev
 sudo apt install -y python3 python3-pip
 pip3 install flask psutil
@@ -62,7 +54,7 @@ python3 app.py
 При зміні параметрів через веб-інтерфейс C++ процес перезапускається автоматично.
 
 
-Запуск C++ вручну
+Перевірити запуск програми C++ вручну
 ```
 main --camera /dev/video0 -cr
 ```
