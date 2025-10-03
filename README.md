@@ -9,6 +9,7 @@ sudo apt update
 sudo apt install -y build-essential cmake libopencv-dev nlohmann-json3-dev
 sudo apt install -y python3 python3-pip
 pip3 install flask psutil
+sudo apt install libopencv-dev
 ```
 
 Збірка C++ програми
